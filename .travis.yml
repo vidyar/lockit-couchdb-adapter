@@ -4,3 +4,5 @@ node_js:
 services: couchdb
 before_script:
   - npm install -g grunt-cli
+notifications:
+  email: false
